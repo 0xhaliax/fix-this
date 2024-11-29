@@ -1,0 +1,33 @@
+{
+  "name": "fix-this",
+  "version": "2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:unit",
+    "test:unit": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xhaliax/fix-this.git"
+  },
+  "author": "0xhaliax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xhaliax/fix-this/issues"
+  },
+  "homepage": "https://github.com/0xhaliax/fix-this#readme",
+  "description": "",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "engines": {
+    "node": "^16.20 || ^18.20 || ^20.12"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
